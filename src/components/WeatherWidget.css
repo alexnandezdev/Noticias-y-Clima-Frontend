@@ -1,0 +1,25 @@
+.weather-widget {
+    background-color: #e6f2ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .weather-widget h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .weather-info {
+    text-align: center;
+  }
+  
+  .temperature {
+    font-size: 2em;
+    font-weight: bold;
+    color: #0066cc;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+  }

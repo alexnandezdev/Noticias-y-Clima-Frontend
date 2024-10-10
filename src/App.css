@@ -1,0 +1,156 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image:url('C:\Users\jafm9\weather-news-frontend\public\clima-tipos.jpg');
+  color: #fff;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  color: #ffffff;
+
+}
+
+h4 {
+  font-size: 15px;
+  margin: 0;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  color: #ffffff;
+
+}
+
+.weather-widget {
+  background-color: #303134;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.weather-widget img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.content {
+  flex: 2;
+  background-color: #303134;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.content h3 {
+  font-size: 18px;
+  color: #8ab4f8;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #444;
+}
+
+aside {
+  flex: 1;
+  background-color: #303134;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.news-item {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #444;
+}
+
+.news-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.news-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.news-source {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.search-history h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.search-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-history li {
+  padding: 10px;
+  background-color: #3c4043;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-history li:hover {
+  background-color: #4d5256;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #3c4043;
+  border: none;
+  color: #fff;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #8ab4f8;
+  color: #202124;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+button:hover {
+  background-color: #a1c4ff;
+}
